@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: test-test-jul11-app-tekton
-  namespace: ai-rhdh
+  namespace: ci-hub
   finalizers: ["resources-finalizer.argocd.argoproj.io"]
 spec:
   project: default
