@@ -11,7 +11,7 @@ spec:
     repoURL: https://github.com/jdubrick-ai/test-test-jul11-gitops.git
     targetRevision: main
   destination:
-    namespace: rhdh-test
+    namespace: ci-hub
     server: https://kubernetes.default.svc
   syncPolicy:
     managedNamespaceMetadata:
